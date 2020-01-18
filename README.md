@@ -38,7 +38,8 @@ You can install Python dependencies using pip install -r requirements.txt, and i
 
 ## Citation
 If you use this implementation in your work, please cite the following:
-```@misc{athalye2015neuralstyle,
+```
+@misc{athalye2015neuralstyle,
   author = {Anish Athalye},
   title = {Neural Style},
   year = {2015},
