@@ -1,6 +1,6 @@
 # Neural-Image-Style-Transfer
 
-neural-style
+## neural-style
 
 An implementation of neural style in TensorFlow.
 
@@ -9,7 +9,7 @@ This implementation is a lot simpler than a lot of the other ones out there, tha
 TensorFlow doesn't support L-BFGS (which is what the original authors used), so we use Adam. This may require a little bit more hyperparameter tuning to get nice results.
 
 
-Running
+## Running
 python neural_style.py --content <content file> --styles <style file> --output <output file>
 
 Run python neural_style.py --help to see a list of all options.
@@ -23,19 +23,20 @@ Use --checkpoint-output and --checkpoint-iterations to save checkpoint images.
 Use --iterations to change the number of iterations (default 1000). For a 512×512 pixel content file, 1000 iterations take 60 seconds on a GTX 1080 Ti, 90 seconds on a Maxwell Titan X, or 60 minutes on an Intel Core i7-5930K. Using a GPU is highly recommended due to the huge speedup.
 
 
-Requirements
+## Requirements
 Data Files
 Pre-trained VGG network (MD5 106118b7cf60435e6d8e04f6a6dc3657) - put it in the top level of this repository, or specify its location using the --network option.
-Dependencies
+
+## Dependencies
 You can install Python dependencies using pip install -r requirements.txt, and it should just work. If you want to install the packages manually, here's a list:
 
-TensorFlow
-NumPy
-SciPy
-Pillow
+- TensorFlow
+- NumPy
+- SciPy
+- Pillow
 
 
-Citation
+## Citation
 If you use this implementation in your work, please cite the following:
 
 @misc{athalye2015neuralstyle,
