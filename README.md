@@ -10,7 +10,7 @@ TensorFlow doesn't support L-BFGS (which is what the original authors used), so 
 
 
 ## Running
-python neural_style.py --content <content file> --styles <style file> --output <output file>
+```python neural_style.py --content <content file> --styles <style file> --output <output file> ```
 
 Run python neural_style.py --help to see a list of all options.
 
