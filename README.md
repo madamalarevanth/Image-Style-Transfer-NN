@@ -35,6 +35,11 @@ You can install Python dependencies using pip install -r requirements.txt, and i
 - SciPy
 - Pillow
 
+## INPUT 
+![INPUT1](https://https://github.com/madamalarevanth/Neural-Image-Style-Transfer/blob/master/examples/nar.jpg)
+
+
+
 
 ## Citation
 If you use this implementation in your work, please cite the following:
