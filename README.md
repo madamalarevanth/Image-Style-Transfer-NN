@@ -36,7 +36,9 @@ You can install Python dependencies using pip install -r requirements.txt, and i
 - Pillow
 
 ## INPUT 
-![INPUT1](https://https://github.com/madamalarevanth/Neural-Image-Style-Transfer/blob/master/examples/nar.jpg)
+![INPUT1](https://github.com/madamalarevanth/Neural-Image-Style-Transfer/blob/master/examples/nar.jpg)
+![Output1 1000 epochs](https://github.com/madamalarevanth/Neural-Image-Style-Transfer/blob/master/examples/output1.jpg)
+![Output2 2000epochs](https://github.com/madamalarevanth/Neural-Image-Style-Transfer/blob/master/examples/output2.jpg)
 
 
 
